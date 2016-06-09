@@ -19,9 +19,9 @@ O objetivo é implementar uma busca que movimente o espaço vazio(representado p
 
 # Executando o programa
 
-1. Abrir o arqivo main.py em um editor.
+1.Abrir o arqivo main.py em um editor.
 
-2. Selecionar o puzzle a ser resolvido com o seguinte comando:
+2.Selecionar o puzzle a ser resolvido com o seguinte comando:
 
   puzz = puzzle.loadEightPuzzle(0)
 
