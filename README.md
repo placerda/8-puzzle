@@ -17,7 +17,7 @@ O objetivo é implementar uma busca que movimente o espaço vazio(representado p
        | 7 | 6 | 5 |
        -------------
 
-# Como rodar?
+# Executando o programa
 
 1. Abrir o arqivo main.py em um editor.
 
@@ -27,17 +27,19 @@ O objetivo é implementar uma busca que movimente o espaço vazio(representado p
 
 O parâmetro seleciona um dos seguintes quebra-cabeças que estão definidos no arquivo puzzle.py:
 
+~~~
   EIGHT_PUZZLE_DATA = [[1, 2, 3, 8, 4, 0, 7, 6, 5],  
                        [1, 2, 3, 8, 4, 5, 7, 0, 6], 
                        [1, 2, 3, 8, 4, 5, 0, 7, 6], 
                        [5, 4, 3, 6, 1, 8, 7, 0, 2]]
+~~~
 
-No parâmetro 0 do exemplo acima seleciona o primeiro quebra-cabeças [1, 2, 3, 8, 4, 0, 7, 6, 5].
+O parâmetro 0 no exemplo acima seleciona o primeiro quebra-cabeças [1, 2, 3, 8, 4, 0, 7, 6, 5].
 
-OBS: Repare que o quarto quebra cabeças está no espaço de busca inacessível considerando nosso estado meta, ver:
+OBS: Repare que o quarto quebra cabeças está no espaço de busca inacessível considerando o estado meta, ver:
 [Reachable state space of an 8-puzzle](http://cs.stackexchange.com/questions/16515/reachable-state-space-of-an-8-puzzle)
 
-3. Para selecionar o tipo de busca, basta tirar o comentário da linha correspondete a busca que se quer fazer, no exemplo abaixo está selecionada a busca Manhattan.
+3.Para selecionar o tipo de busca, basta tirar o comentário da linha correspondete a busca que se quer fazer, no exemplo abaixo está selecionada a busca Manhattan:
 
 ~~~
 # Seleciona o tipo de busca
